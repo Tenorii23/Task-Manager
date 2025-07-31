@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Task Manager</title>
-</head>
-<body>
-  <h1>Coming Soon...</h1>
-</body>
-</html>
-
 <?php
 include 'config.php';
 
@@ -21,4 +11,5 @@ while ($row = $result->fetch_assoc()) {
 }
 ?>
 <a href="logout.php">Logout</a>
+
 
